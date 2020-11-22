@@ -1,0 +1,75 @@
+:root {
+  --portfolio-theme: #35465c;
+}
+
+html {
+  font-size: 18px;
+}
+
+/* Nav Bar */
+nav mark {
+  background: transparent;
+}
+
+.bg-primary {
+  background-color: var(--portfolio-theme) !important;
+}
+
+nav a {
+  color: grey;
+  font-weight: bold;
+}
+
+nav .active {
+  color: white;
+}
+
+/* Footer */
+footer * {
+  color: #fff;
+  display: inline-block;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+/* Links */
+main a {
+  color: var(--portfolio-theme);
+  font-weight: bold;
+}
+
+/* About Page */
+.profile-greeting {
+  color: var(--portfolio-theme);
+}
+
+.img-profile {
+  border-radius: 50% !important;
+  max-width: 10rem;
+  max-height: 10rem;
+  border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
+
+/* Contact Page */
+.contact-links { 
+  font-weight: bold; font-size: larger;
+}
+
+/* |Portfolio Page */
+.btn-primary {
+  background-color: var(--portfolio-theme) !important;
+  border: none;
+}
+
+.card {
+  max-width: 340px;
+}
+
+.card-img-bottom {
+  filter: grayscale(1);
+}
+
+.card-title {
+  color: var(--portfolio-theme) !important;
+  font-weight: bold;
+}
